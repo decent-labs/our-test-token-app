@@ -1,0 +1,48 @@
+@tailwind base;
+
+@import 'react-toastify/dist/ReactToastify.css';
+
+@tailwind components;
+
+/* ubuntu-regular - latin */
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+    url('./assets/fonts/ubuntu-v15-latin-regular.woff2') format('woff2'),
+    url('./assets/fonts/ubuntu-v15-latin-regular.woff') format('woff');
+}
+/* ubuntu-500 - latin */
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 500;
+  src: local(''),
+    url('./assets/fonts/ubuntu-v15-latin-500.woff2') format('woff2'),
+    url('./assets/fonts/ubuntu-v15-latin-500.woff') format('woff');
+}
+/* ubuntu-700 - latin */
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  src: local(''),
+    url('./assets/fonts/ubuntu-v15-latin-700.woff2') format('woff2'),
+    url('./assets/fonts/ubuntu-v15-latin-700.woff') format('woff');
+}
+/* ubuntu-mono-regular - latin */
+@font-face {
+  font-family: 'Ubuntu Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+    url('./assets/fonts/ubuntu-mono-v10-latin-regular.woff2') format('woff2'),
+    url('./assets/fonts/ubuntu-mono-v10-latin-regular.woff') format('woff');
+}
+
+@tailwind utilities;
+
+a {
+  @apply hover:underline;
+}
